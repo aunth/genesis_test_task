@@ -13,6 +13,7 @@ RUN apk --no-cache add ca-certificates
 COPY --from=builder /app/main .
 COPY --from=builder /app/migrate ./migrate
 COPY --from=builder /app/internal/static ./internal/static
+COPY --from=builder /app/internal/database/migrations ./internal/database/migrations
 COPY docker-entrypoint.sh .
 RUN chmod +x docker-entrypoint.sh
 EXPOSE 8080
