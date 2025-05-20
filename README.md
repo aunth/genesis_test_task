@@ -149,6 +149,14 @@ Or use Docker Compose:
 docker compose up -d
 ```
 
+
+## Bonus task
+
+My application is running on this ip address: http://146.190.33.131:8080
+
+
+
+
 ## Contributing
 
 1. Fork the repository
