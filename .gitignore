@@ -1,0 +1,8 @@
+weather-service
+
+.env
+.env.*
+!.env.example
+
+
+*.log
